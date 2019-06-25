@@ -1,5 +1,5 @@
 body {
-	color: white !;
+	color: white;
 	background-image: url("https://i0.wp.com/www.knoxalliance.store/wp-content/uploads/2017/05/light-color-background-images-for-website-top-hd-images-for-free-background-for-website-in-light-color-1-1024x640.jpg?ssl=1");
 	height: 100%;
 }
@@ -91,7 +91,7 @@ a:hover {
 	font-size: 1.7em;
 	font-weight: bold;
 	padding: 15px 0px 0px 15px;
-	color: #4aaaa5;
+	color: #2a489c;
 }
 
 #about hr {
@@ -128,7 +128,7 @@ ul {
 	font-size: 1.7em;
 	font-weight: bold;
 	padding: 0px 0px 0px 15px;
-	color: #4aaaa5;
+	color: #484ac5;
 }
 
 #portfolio hr {
@@ -168,7 +168,7 @@ ul {
 	font-size: 1.7em;
 	font-weight: bold;
 	padding: 15px 0px 0px 15px;
-	color: #4aaaa5;
+	color: #484ac5;
 }
 
 #contact hr {
@@ -227,7 +227,7 @@ ul {
 	color: #fff;
 	width: 70px;
  	height: 30px;
- 	background: #4aaaa5;
+ 	color: #484ac5;
  	border: none;
  	margin-top: 5px;
  	border-radius: 2px;
@@ -236,7 +236,7 @@ ul {
 
 #submit:hover {
 	cursor: pointer;
-	background-color: #3a8783;
+	color: #484ac5;
 }
 
 
