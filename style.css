@@ -93,6 +93,7 @@ a:hover {
 #about h2 {
 	font-size: 1.7em;
 	font-weight: bold;
+	text-align: center;
 	/* padding: 15px 0px 0px 15px; */
 	color: #ffffff;
 }
