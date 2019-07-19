@@ -126,6 +126,7 @@ ul {
 	margin: 35px 13% 35px 13%;
 	background: #fff;
 	overflow: auto;
+	text-align: center;
 }
 
 #portfolio h2 {
@@ -173,11 +174,13 @@ ul {
 	color: white;
 }
 
+
 #contact h2 {
 	font-size: 1.7em;
 	font-weight: bold;
 	padding: 15px 0px 0px 15px;
 	color: #ffffff;
+	text-align: center;
 }
 
 #contact hr {
