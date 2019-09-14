@@ -1,368 +1,124 @@
-body {
-	color: white;
-	background-image: url("https://steamuserimages-a.akamaihd.net/ugc/169285679026568741/D6BEAD6CD17F75F2177AC93D8C71EFC732E8066F/");
-	height: 100%;
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Patua+One');
+
+* {
+    color: rgb(255, 255, 255);
+}
+
+html, body {
+    background: #002292;
+
+    background: -webkit-linear-gradient(to left, #27a1e7, #0e178f);
+
+    background: linear-gradient(to left, #6280e4, #170e94);
+
+    height: 100%;
+}
+
+h1 {
+    font-family: "Patua One", sans-serif;
+    color: white;
+}
+
+
+.navbar-dark .navbar-brand {
+    font-size: 2em;
+    font-family: "Pacifico", serif;
+    color: white;
 }
 
 .container {
-	height: 100%;
+    margin-top: 45px;
+    margin-bottom: 65px;
 }
 
-a {
-	color: white !important;
-	text-decoration: none;
-	font-size: 25px;
+img {
+    width: 300px;
+    height: 150px;
 }
-p {
-	color: white;
+
+.square_image {
+    width: 250px;
+    height: 240px;
+    border-radius: 50%;
 }
-a:visited {
-	color: #777777;
+
+.paragraph {
+    font-size: 1.2em;
+    margin-top: 10px;
+    line-height: 1.6em;
+}
+
+.container-grid {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.contact-form {
+    width: 80%;
+}
+
+.port-cards {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+.card-header {
+    color: black;
 }
 
 a:hover {
-	color: #4538b6;
-	text-decoration: none;
+    text-decoration: none;
+    color: #000066;
 }
 
-.navbar-brand {
-	color: white !important;
+i.fab,
+i.fas,
+a {
+    color: #f85032;
 }
 
-.navbar-toggle .icon-bar {
-    width: 30px;
-    height: 1px;
+.wrapper {
+    text-align: center;
 }
 
-.nav-item {
-	width: 150px;
+.wrapper > h1 {
+    padding: 20px;
+    margin: 40px;
+    font-size: 2.5rem;
 }
 
-#navbarNav {
-	margin-left: 50%;
+.wrapper > p {
+    font-size: 1.5rem;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
 }
 
-.navbar-header {
-	text-align: center;
-	font-family: 'Georgia, 'Times New Roman',serif;
+
+.share > button {
+    background-color: #f85032;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 5px;
+    width: 130px;
 }
 
-.navbar-header span {
-    padding: 2px;
-    font-size: 1.05em;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
-}
-
-.navbar {
-    background-color: #531515 !important;
-    border-color: #e7e7e7;
-}
-
-.nav-link {
-    color: #fff !important;
-    font-size: 1.0em;
-    text-align: center;	
-    padding: 15px 50px;
-	float: none;
-	/* margin-left: 75%; */
-}
-
-.navbar-default .navbar-nav>li>a {
+.share > button > a {
     color: #fff;
 }
 
-#footer {
-	background: #201e1e;
-    height: 70px;
-	line-height: 70px;
-	width: 100%;
-	float: left;
+i.fa-envelope:before {
     color: #fff;
-    border-top: 2px solid #440404;
 }
 
-
-#about {
-	background: rgb(39, 35, 35);
-	height: 100%;
+i.fa-linkedin:before {
+    color: white;
 }
 
-#about h2 {
-	font-size: 1.7em;
-	font-weight: bold;
-	text-align: center;
-	/* padding: 15px 0px 0px 15px; */
-	color: #ffffff;
-}
-
-#about hr {
-	margin-left: 15px;
-	margin-right: 15px;
-}
-
-#about img {
-	width: 85%;
-	height: 85%;
-	margin: 10px 7.5% 0px 7.5%;	
-}
-
-#about p {
-	line-height: 150%;
-	margin-left: 15px;
-	margin-right: 15px;
-	padding-top: 10px;
-	text-align: justify; 
-}
-
-
-ul {
-	padding: 0px;
-}
-
-#portfolio {
-	margin: 35px 13% 35px 13%;
-	background: #fff;
-	overflow: auto;
-	text-align: center;
-}
-
-#portfolio h2 {
-	font-size: 1.7em;
-	font-weight: bold;
-	padding: 0px 0px 0px 15px;
-	color: #ffffff;
-}
-
-#portfolio hr {
-	margin-left: 15px;
-	margin-right: 15px;
-}
-
-#portfolio li {
-	list-style: none;
-	width: 90%;
-	height: 200px;
-	margin: 15px 5% 20px 5%;
-}
-
-#portfolio img {
-	width: 100%;
-	height: 100%;
-}
-
-.portLabel {
-	color: #fff;
-	background-color: #4aaaa5;
-	line-height: 40px;
-	text-align: center;
-	position: relative;
-	bottom: 53px;
-
-}
-.personal {
-	margin: 35px 11% 35px 11%;
-	background-color: rgb(48, 46, 46) !important;
-	color: rgb(0, 0, 0);
-}
-
-#contact {
-	margin: 35px 13% 35px 13%;
-	background: rgb(48, 46, 46);
-	color: white;
-}
-
-
-#contact h2 {
-	font-size: 1.7em;
-	font-weight: bold;
-	padding: 15px 0px 0px 15px;
-	color: #ffffff;
-	text-align: center;
-}
-
-#contact hr {
-	margin-left: 15px;
-	margin-right: 15px;
-}
-
-#contact form {
-	margin-left: 15px;
-	color: #d1cdcd;
-}
-
-#contact form input {
-	background-color: #615959;
-	color: #000000;
-	width: 97%;
-	margin-bottom: 10px;
-	margin-top: 3px;
-}
-
-#contact span {
-	font-size: 1.1em;
-	color: white;
-}
-
-#name {
-	height: 30px;
-	margin-bottom: 5px;
-}
-
-#name[type=text] {
-	padding-left: 5px;
-	font-size: 13px; 
-	opacity: 0.7;
-	background-color: #777777;
-}
-
-#email[type=text] {
-	padding-left: 5px; 
-	font-size: 13px;
-	opacity: 0.7;
-	background-color: #777777
-}
-
-#message[type=text] {
-	line-height: 0px;
-	background-color: #777777;
-}
-
-#email {
-	height: 30px;
-	margin-bottom: 5px;	
-}
-
-#message {
-	height: 185px;
-	margin-bottom: 10px;
-}
-
-#submit[type=submit] {
-	background-color: white;
-	color: rgb(0, 0, 0);
-	width: 70px;
- 	height: 30px;
- 	border: none;
- 	margin-top: 5px;
- 	border-radius: 2px;
- 	font-size: 13px;
-}
-
-#submit:hover {
-	cursor: pointer;
-	color: #000000;
-	background-color: rgb(255, 255, 255);
-}
-.sidebar {
-	padding: 0px 30px 30px 30px;
-	background: rgb(46, 44, 44);
-	color: white;
-	border: 1px solid #ddd;
-	margin-bottom: 30px;
-  }
-  
-  h3,
-  .sidebar h2 {
-	padding-bottom: 20px;
-	margin-bottom: 15px;
-	line-height: 22px;
-	border-bottom: 2px solid #eee;
-  }
-
-.portLabel {
-	background-color: #201e1e;
-}
-@media (min-width: 560px) {
-
-	#about {
-    	width: 80%;
-	}
-
-	#about img {
-		width: 45%;;
-		margin: 5px 18px 20px 18px;
-		float: left;
-	}
-
-	#about p {
-		padding: 0px;
-	}
-
-	#connect {
-		width: 80%;
-		margin: 15px 0% 15px 10%;
-		height: 160px;
-	}
-
-	#connect h3 {
-		padding: 0px 0px 0px 15px;
-	}
-
-	#contact {
-		margin: 15px 0% 15px 10%;
-    	width: 80%;
-	}
-
-	#portfolio {
-		margin: 15px 0% 15px 10%;
-		width: 80%;
-		background-color: #201e1e;
-		
-	}
-
-	#portfolio li {
-		width: 45%;
-	    margin: 10px 0px 10px 20px;
-	    float: left;
-	}
-
-	#footer {
-		/* width: 90%; */
-	    /* margin-left: 5%; */
-	    border-radius: 5px;
-	}
-
-
-}
-
-
-
-@media (min-width: 992px) {
-
-	#about {
-		margin: 15px -6% 60px 10%;
-    	width: 50%;
-	}
-
-	#connect {
-		width: 25%;
-	}
-
-	#contact {
-    	width: 50%;
-    	margin: 15px -6% 50px 10%;
-
-	}
-
-	#portfolio {
-    	width: 50%;
-    	margin: 15px -6% 60px 10%;
-
-	}
-
-	#portfolio li {
-		width: 45%;
-	}
-
-	#footer {
-		/* width: 90%; */
-	    /* margin-left: 5% */
-		border-radius: 3px;
-		text-align: center;
-	}
-
-
+i.fa-github:before {
+    color: white;
 }
