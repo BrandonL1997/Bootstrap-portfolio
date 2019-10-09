@@ -7,9 +7,9 @@
 html, body {
     background: #002292;
 
-    background: -webkit-linear-gradient(to left, #27a1e7, #0e178f);
+    background: -webkit-linear-gradient(to left, #27a1e7, #8f0e0e);
 
-    background: linear-gradient(to left, #6280e4, #170e94);
+    background: linear-gradient(to left, #6e8df1, #360c7a);
 
     height: 100%;
 }
@@ -18,7 +18,9 @@ h1 {
     font-family: "Patua One", sans-serif;
     color: white;
 }
-
+#card-header text-center {
+    color: grey;
+}
 
 .navbar-dark .navbar-brand {
     font-size: 2em;
